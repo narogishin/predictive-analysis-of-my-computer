@@ -4,7 +4,7 @@ from time import sleep
 from datetime import datetime
 import pandas as pd
 
-arduino = serial.Serial(port='COM4', baudrate=115200, timeout=.1)
+arduino = serial.Serial(port='COM5', baudrate=115200, timeout=.1)
 
 while True :
     data = pd.read_csv('data.csv')
