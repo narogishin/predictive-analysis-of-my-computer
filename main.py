@@ -12,7 +12,7 @@ def classify(dt):
     else :
         return 0
     
-arduino = serial.Serial(port='COM5', baudrate=115200, timeout=.1)
+arduino = serial.Serial(port='COM6', baudrate=115200, timeout=.1)
 
 while True :
     data = pd.read_csv('data.csv')
